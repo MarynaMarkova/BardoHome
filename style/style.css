@@ -5,11 +5,10 @@ body {
 
 .main {
   max-width: 800px !important;
+  margin: 40px auto !important;
 }
 
 .container {
-  margin: 40px auto;
-
   background-color: rgb(4, 1, 19);
   color: white;
   padding: 30px;
@@ -25,8 +24,8 @@ body {
 }
 
 .navigation-links {
-  display: flex;
-  margin-top: 40px;
+  display: inline-block;
+  margin: 100px auto;
   justify-content: center;
 }
 
@@ -36,7 +35,7 @@ body {
   border-radius: 15px;
   max-width: 200px;
   border: 1px solid aqua;
-  margin: 50px auto;
+  margin: 20px 10px;
   text-align: center;
   text-decoration: none;
   color: rgb(149, 188, 240);
@@ -84,4 +83,16 @@ footer a {
 .PhotoBy {
   font-size: 8px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .door {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .door {
+    margin: 0 auto;
+  }
 }
