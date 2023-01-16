@@ -92,7 +92,7 @@ footer a {
   }
   .navigation-links {
     grid-template-columns: 1fr;
-    margin: 0 auto;
+    margin: 20 auto;
   }
 }
 
