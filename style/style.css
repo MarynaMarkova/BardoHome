@@ -1,0 +1,56 @@
+body {
+  background-image: url("../img/starry-night.jpg");
+  text-align: center;
+}
+
+.container {
+  margin: 50px auto;
+
+  max-width: 600px;
+  background-color: rgb(4, 1, 19);
+  color: white;
+  padding: 50px;
+  border-radius: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+  line-height: 1.5;
+}
+
+.row {
+  text-align: center;
+}
+
+.door {
+  background-color: rgba(18, 15, 34, 0.658);
+  padding: 30px 30px;
+  border-radius: 15px;
+  max-width: 200px;
+  border: 10px aqua;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.door a {
+  text-decoration: none;
+  color: darkcyan;
+  font-family: "Alegreya SC", serif;
+}
+
+.author {
+  font-family: "Alegreya SC", serif;
+  text-align: center;
+  margin: 100px auto;
+}
+
+footer {
+  color: rgb(124, 139, 158);
+  text-align: center;
+}
+
+footer a {
+  color: rgb(124, 139, 158);
+}
+.PhotoBy {
+  font-size: 8px;
+  margin-bottom: 30px;
+}
