@@ -24,9 +24,10 @@ body {
 }
 
 .navigation-links {
-  display: inline-block;
-  margin: 100px auto;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 3rem;
 }
 
 .door {
@@ -88,6 +89,10 @@ footer a {
 @media screen and (max-width: 900px) {
   .door {
     padding: 20px;
+  }
+  .navigation-links {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
   }
 }
 
