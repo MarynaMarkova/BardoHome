@@ -1,5 +1,6 @@
 body {
   background-image: url("../img/starry-night.jpg");
+  text-align: center !important;
 }
 
 .main {
@@ -54,12 +55,12 @@ body {
 }
 
 .guru {
-  max-width: 500px;
   margin: 0 auto;
 }
 
 .guru img {
   border-radius: 10px;
+  max-width: 500px;
 }
 
 .door:hover {
