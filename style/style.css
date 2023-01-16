@@ -1,45 +1,80 @@
 body {
   background-image: url("../img/starry-night.jpg");
-  text-align: center;
+}
+
+.main {
+  max-width: 600px;
 }
 
 .container {
-  margin: 50px auto;
+  margin: 40px auto;
 
-  max-width: 600px;
   background-color: rgb(4, 1, 19);
   color: white;
-  padding: 50px;
+  padding: 30px;
   border-radius: 30px;
   font-family: "Open Sans", sans-serif;
   font-size: larger;
   line-height: 1.5;
+  text-align: center;
 }
 
-.row {
-  text-align: center;
+.manuskript {
+  border-radius: 7px;
+  display: flex;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
 .door {
   background-color: rgba(18, 15, 34, 0.658);
-  padding: 30px 30px;
+  padding: 30px 50px;
   border-radius: 15px;
   max-width: 200px;
-  border: 10px aqua;
+  border: 1px solid aqua;
   margin: 50px auto;
   text-align: center;
+  text-decoration: none;
+  color: rgb(149, 188, 240);
+  font-family: "Alegreya SC", serif;
+  transition: all 0.4s ease-in-out;
+  animation: scaleAnim 1s ease-in-out;
+}
+@-webkit-keyframes scaleAnim {
+  0% {
+    transform: translateY(-100%) scaleY(0);
+  }
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
 }
 
-.door a {
-  text-decoration: none;
-  color: darkcyan;
-  font-family: "Alegreya SC", serif;
+.guru {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.guru img {
+  border-radius: 10px;
+}
+
+.door:hover {
+  background-color: #5b543e;
+  transform: translateY(-5px);
 }
 
 .author {
   font-family: "Alegreya SC", serif;
   text-align: center;
-  margin: 100px auto;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 28px;
 }
 
 footer {
