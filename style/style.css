@@ -4,7 +4,7 @@ body {
 }
 
 .main {
-  max-width: 600px;
+  max-width: 800px !important;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 
 .manuskript {
   border-radius: 7px;
-  display: flex;
+  
 }
 
 .navigation-links {
