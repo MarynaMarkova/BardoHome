@@ -22,7 +22,6 @@ body {
 
 .manuskript {
   border-radius: 7px;
-  
 }
 
 .navigation-links {
@@ -54,11 +53,7 @@ body {
   }
 }
 
-.guru {
-  margin: 0 auto;
-}
-
-.guru img {
+img {
   border-radius: 10px;
   max-width: 500px;
 }
