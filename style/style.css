@@ -32,9 +32,9 @@ body {
 
 .door {
   background-color: rgba(18, 15, 34, 0.658);
-  padding: 30px 50px;
+  padding: 20px 0;
   border-radius: 15px;
-  max-width: 200px;
+  width: 200px;
   border: 1px solid aqua;
   margin: 20px 10px;
   text-align: center;
@@ -44,7 +44,7 @@ body {
   transition: all 0.4s ease-in-out;
   animation: scaleAnim 1s ease-in-out;
 }
-@-webkit-keyframes scaleAnim {
+@keyframes scaleAnim {
   0% {
     transform: translateY(-100%) scaleY(0);
   }
@@ -87,9 +87,6 @@ footer a {
 }
 
 @media screen and (max-width: 900px) {
-  .door {
-    padding: 20px;
-  }
   .navigation-links {
     grid-template-columns: 1fr;
     margin: 20 auto;
